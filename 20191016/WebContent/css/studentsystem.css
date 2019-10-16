@@ -1,0 +1,22 @@
+.logodiv {
+	background-image: url("../img/a.jpg");
+    width: 70%;
+    height: 200px;
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    border-radius:25px;
+    background-color: blue;
+    animation: myfirst 5s;
+    position: relative;
+    animation-iteration-count:infinite;
+	
+}
+
+@keyframes myfirst
+{
+0%   { left:0px; top:0px;}
+25%  { left:200px; top:-20px;}
+50%  { left:200px; top:20px;}
+75%  { left:0px; top:-20px;}
+100% { left:0px; top:0px;}
+}
